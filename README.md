@@ -33,3 +33,7 @@ denoise -t 140 -w 600
 	导致无法识别灰度值，因此图片需要适当压缩。
 	选择一个合适的宽度（比如600）将有效的防止处理程序失效。 
 	```
+
+## 下载：
+
+[https://github.com/eryio/denoise/releases/download/v1.0/denoise.exe](https://github.com/eryio/denoise/releases/download/v1.0/denoise.exe)

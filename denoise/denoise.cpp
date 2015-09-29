@@ -133,7 +133,7 @@ int wmain(int argc, wchar_t* argv[])
 	
 	try
 	{
-		for(auto i = 0U; i < argc; ++i)
+		for(auto i = 0; i < argc; ++i)
 		{
 			if(0 == wcscmp(argv[i], L"-t") && i + 1 < argc)
 			{
@@ -148,7 +148,7 @@ int wmain(int argc, wchar_t* argv[])
 		}
 
 	}
-	catch(std::exception& e)
+	catch(std::exception&)
 	{
 		wprintf_s(L"命令行参数错误，请重新输入！\n");
 		return 0;
